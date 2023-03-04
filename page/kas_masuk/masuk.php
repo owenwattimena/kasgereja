@@ -132,7 +132,7 @@ $sql_kode_kas = $koneksi->query("SELECT * FROM kode_kas");
                             <?php
 
                             $no = 1;
-
+                            $total=0;
                             while ($data = $sql->fetch_assoc()) {
 
                             ?>

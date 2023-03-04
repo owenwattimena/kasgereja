@@ -1,5 +1,5 @@
 ﻿<?PHP 
-
+    include("koneksi.php");
     session_start();
 
     if (!isset($_SESSION['username'])) {
@@ -13,10 +13,10 @@
         header("location: index.php");
     }
 
-    $koneksi = new mysqli("localhost","root","","kas");
+    // $koneksi = new mysqli("localhost","root","","kas");
 
-
-    error_reporting(E_ALL^(E_NOTICE|E_WARNING)); 
+    // error_reporting(1);
+    // error_reporting(E_ALL^(E_NOTICE|E_WARNING)); 
 
 ?>
 <!DOCTYPE html>
@@ -105,8 +105,8 @@ font-size: 16px;"> SISTEM INFORMASI KAS & ASET SISFO KAS Pantekosta Maluku - Jem
     
                         <?php
 
-                            $page = $_GET['page'];
-                            $aksi = $_GET['aksi'];
+                            $page = $_GET['page']??'';
+                            $aksi = $_GET['aksi']??'';
 
                             if ($page == "masuk"){
                                 if ($aksi == "") {

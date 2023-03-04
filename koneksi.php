@@ -1,5 +1,5 @@
-//7@M5+~?P85Ng
 <?php
+//7@M5+~?P85Ng
 $server = "localhost";
 $user = "root";
 $password = "";

@@ -136,6 +136,7 @@ kas.kode, kas.no_acc, kas.tgl, kas.keterangan, kas.keluar, kode_kas.kode_kas FRO
                         <tbody>
 
                             <?php
+                            $total=0;
                             $no = 1;
                             // var_dump($sql->fetch_assoc());
                             // $sql = $koneksi->query("select * from kas where jenis = 'keluar'");
