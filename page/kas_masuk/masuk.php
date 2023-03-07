@@ -51,7 +51,7 @@ $sql_kode_kas = $koneksi->query("SELECT * FROM kode_kas");
                         Tambah Data
                     </button>
 
-                    <a href='./laporan/laporan_kasmasuk.php?mulai="<?= $mulai ?>"&selesai="<?= $selesai ?>"' target="blank" class="btn btn-default" style="margin-top: 0px; height: 45px; width: 120px; font-size: 20px;"><i class="fa fa-print"></i> Cetak</a>
+                    <a href='./laporan/pdf/kas-masuk/index.php?mulai="<?= $mulai ?>"&selesai="<?= $selesai ?>"' target="blank" class="btn btn-default" style="margin-top: 0px; height: 45px; width: 120px; font-size: 20px;"><i class="fa fa-print"></i> Cetak</a>
 
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog">

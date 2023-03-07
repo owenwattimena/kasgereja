@@ -57,7 +57,7 @@ kas.kode, kas.no_acc, kas.tgl, kas.keterangan, kas.keluar, kode_kas.kode_kas FRO
                     <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
                         Tambah Data
                     </button>
-                    <a href='./laporan/laporan_kaskeluar.php?mulai="<?= $mulai ?>"&selesai="<?= $selesai ?>"' target="blank" class="btn btn-default" style="margin-top: 0px; height: 45px; width: 120px; font-size: 20px;"><i class="fa fa-print"></i> Cetak</a>
+                    <a href='./laporan/pdf/kas-keluar/index.php?mulai="<?= $mulai ?>"&selesai="<?= $selesai ?>"' target="blank" class="btn btn-default" style="margin-top: 0px; height: 45px; width: 120px; font-size: 20px;"><i class="fa fa-print"></i> Cetak</a>
 
 
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
